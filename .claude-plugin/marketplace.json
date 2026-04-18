@@ -1,0 +1,15 @@
+{
+  "name": "AI-skills",
+  "owner": {
+    "name": "Bartek Nuschke",
+    "url": "https://github.com/nuschpl"
+  },
+  "description": "Bartek's personal Claude Code skills marketplace. Each plugin is a separate submodule so private and public skills can coexist.",
+  "plugins": [
+    {
+      "name": "olx",
+      "source": "./plugins/olx",
+      "description": "Create, manage, and promote OLX.pl listings from photos in Google Drive. Supports the OAuth2 Partner API and a logged-in Chrome session."
+    }
+  ]
+}
