@@ -1,9 +1,0 @@
-{
-  "name": "olx",
-  "description": "Create, manage, and promote OLX.pl listings. Supports both the OAuth2 Partner API and a logged-in Chrome session.",
-  "version": "0.1.0",
-  "author": {
-    "name": "Bartek Nuschke",
-    "url": "https://github.com/nuschpl"
-  }
-}

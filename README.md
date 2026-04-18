@@ -1,6 +1,10 @@
 # AI-skills
 
-Claude Code plugin marketplace. Each skill lives in its own GitHub repo and is wired in here as a git submodule — public and private skills can coexist.
+Public Claude Code plugin marketplace. Each listed skill lives in its own GitHub repo and is wired in as a git submodule.
+
+## Why this is "public only"
+
+Claude Code's `/plugin marketplace add` clones the marketplace repo with `--recurse-submodules`, which aborts if any submodule is inaccessible. A private submodule in this repo would break the whole marketplace for anyone without access. To keep this marketplace universally installable, **only public skills are listed here**. Private skills live in separate marketplaces (e.g. `AI-skills-private`) that only authorised users add alongside this one.
 
 ## For end users
 
@@ -8,10 +12,8 @@ Install the marketplace once, then install any plugin from it:
 
 ```
 /plugin marketplace add nuschpl/AI-skills
-/plugin install olx@AI-skills
+/plugin install <plugin-name>@AI-skills
 ```
-
-Private skills require you to have SSH/HTTPS access to the underlying skill repo; public ones work for anyone.
 
 Refresh to pick up upstream changes:
 
