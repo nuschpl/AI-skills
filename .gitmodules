@@ -1,0 +1,3 @@
+[submodule "plugins/olx/skills/OLX"]
+	path = plugins/olx/skills/OLX
+	url = https://github.com/nuschpl/AI-skills-auctions-OLX.git
